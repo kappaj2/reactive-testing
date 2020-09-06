@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/reactive-client/reactive-client.iml" filepath="$PROJECT_DIR$/reactive-client/reactive-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/reactive-server/reactive-server.iml" filepath="$PROJECT_DIR$/reactive-server/reactive-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/reactive-services.iml" filepath="$PROJECT_DIR$/reactive-services.iml" />
+      <module fileurl="file://$PROJECT_DIR$/reservation/reservation.iml" filepath="$PROJECT_DIR$/reservation/reservation.iml" />
+    </modules>
+  </component>
+</project>

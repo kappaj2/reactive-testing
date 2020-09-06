@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="reactive-server" />
+        <module name="reactive-client" />
+        <module name="reservation" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="reactive-client" target="14" />
+      <module name="reactive-server" target="14" />
+      <module name="reactive-services" target="14" />
+      <module name="reservation" target="14" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="reactive-client" options="-parameters" />
+      <module name="reactive-server" options="-parameters" />
+      <module name="reservation" options="-parameters" />
+    </option>
+  </component>
+</project>

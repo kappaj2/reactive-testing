@@ -1,0 +1,15 @@
+<html>
+<body>
+<script>
+    window.addEventListener('load', function (){
+        var ws = new WebSocket('ws://localhost:8080/ws/greetings')
+        ws.addEventListener('open', function (){
+            ws.send('Devox..')
+        })
+        ws.addEventListener('message', function (msg){
+            console.log(' new message : '+msg.data);
+        })
+    })
+</script>
+</body>
+</html>
